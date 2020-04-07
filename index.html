@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tinyone</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+        @media (max-width: 240px) {
+            .alert--test {
+                background-color: #0004ff;
+            }
+        }
+        
+    	@media (min-width: 241px) and (max-width: 575px) {
+            .alert--test {
+                background-color: var(--primary);
+            }
+        }
+
+		@media (min-width: 576px) and (max-width: 991px) {
+    		.alert--test {
+        		background-color: var(--success);
+    		}
+		}
+
+		@media (min-width: 992px) and (max-width: 1999px) {
+    		.alert--test {
+        		background-color: var(--warning);
+   			}
+		}
+
+		@media (min-width: 1200px) {
+    		.alert--test {
+        		background-color: var(--danger);
+    		}
+		}
+		
+		@media (min-width: 2560px) {
+    		.alert--test {
+        		background-color: maroon;
+    		}
+		}
+    </style>
+	<div class="container">
+    	<div class="alert--test" role="alert">
+    		Screen resolution checker
+    	</div>
+    	<h1>browser requirements</h1>
+    	<p>firefox 31+</p>
+        <p>chrome 49+</p>
+        <p>opera 36+</p>
+        <p>ios 9+</p>
+    </div>
+</body>
